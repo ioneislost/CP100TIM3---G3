@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h1>Atividade do Formulario</h1>
+    <br>
+    <hr>
+    <br>
+    <form action=https://www.w3schools.com/action_page.php>
+        <fieldset>
+            <legend>Formulario:</legend>
+            <label for="date">Your date of birth:</label><br>
+            <input type="date" id="date" name="date" value=""><br> <br>
+            <label for="User">User:</label><br>
+            <input type="text" id="User" name="User" value=""><br>
+            <label for="password">Password:</label> <br>
+            <input type="password" id="password" name="password" value=""><br> <br>
+            <br>
+            <hr>
+            <br>
+            <label for="Name">Your Name:</label><br>
+            <input type="text" id="Name" name="Name" value=""><br>
+            <label for="Address">Your Address:</label><br>
+            <input type="text" id="Address" name="Address" value=""><br>
+            <label for="Number">House Number:</label><br>
+            <input type="text" id="Number" name="Number" value=""><br>
+            <label for="Add-on">Add-on:</label><br>
+            <input type="Add-on" id="Add-on" name="Add-on" value=""><br>
+            <label for="Cities">Select your City:</label><br>
+            <input list="Cities" name="Cities">
+            <datalist id="Cities">
+                <option value="Alambari">Alambari</option>
+                <option value="Alumínio">Alumínio</option>
+                <option value="Araçariguama">Araçariguama</option>
+                <option value="Araçoiaba da Serra">Araçoiaba da Serra</option>
+                <option value="Capela do Alto">Capela do Alto</option>
+                <option value="Cerquilho">Cerquilho</option>
+                <option value="Cesário Lange">Cesário Lange</option>
+                <option value="Ibiúna">Ibiúna</option>
+                <option value="Iperó">Iperó</option>
+                <option value="Itu">Itu</option>
+                <option value="Jumirim">Jumirim</option>
+                <option value="Mairinque">Mairinque</option>
+                <option value="Piedade">Piedade</option>
+                <option value="Pilar do Sul">Pilar do Sul</option>
+                <option value="Porto Feliz">Porto Feliz</option>
+                <option value="Salto">Salto</option>
+                <option value="Salto de Pirapora">Salto de Pirapora</option>
+                <option value="São Miguel Arcanjo">São Miguel Arcanjo</option>
+                <option value="São Roque">São Roque</option>
+                <option value="Sorocaba">Sorocaba</option>
+                <option value="Tapiraí">Tapiraí</option>
+                <option value="Tatuí">Tatuí</option>
+                <option value="Tietê">Tietê</option>
+                <option value="Votorantim">Votorantim</option>
+                <option value="Itapetininga">Itapetininga</option>
+                <br> 
+            </datalist>
+            <br>
+            <label for="State">Choose a State:</label>
+            <select id="State" name="State" size="3">
+                <option value="Sao Paulo">Sao Paulo</option selected>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Espirito Santo">Espirito Santo</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+            </select>
+            <br> <br>
+            <label for="Cep">Your CEP:</label><br>
+            <input type="text" id="Cep" name="Cep" value=""><br>
+            <br> 
+            <hr>
+            <br>
+            <label for="Genero">Choose Your Gender:</label><br>
+            <input type="radio" id="Male" name="Genero" value="Male" checked>
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Genero" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Prefer not to say" name="Genero" value="Prefer not to say">
+            <label for="Prefer not to say">Prefer not to say</label>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <label for="Course"> Choose your courses:</label> <br>
+            <input type="checkbox" id="Course1" name="Course1" value="ADS">
+            <label for="Course1"> I course Systems Development Analyst</label><br>
+            <input type="checkbox" id="Course2" name="Course2" value="Games">
+            <label for="Course2"> I course Games</label><br>
+            <input type="checkbox" id="Course3" name="Course3" value="IT">
+            <label for="Course3"> I course IT management</label> <br>
+            <input type="checkbox" id="Course4" name="Course4" value="Databank">
+            <label for="Course4"> I course Databank</label> <br>
+            <br>
+            <label for="Model">Choose Course Model:</label><br>
+            <input type="radio" id="In-person" name="Model" value="IRL" checked>
+            <label for="In-person">In-person</label><br>
+            <input type="radio" id="Online" name="Model" value="Online">
+            <label for="Online">Online</label><br>
+            <input type="radio" id="Hybrid" name="Model" value="Hybrid">
+            <label for="Hybrid">Hybrid</label>
+            <br><br>
+            <hr>
+            <br>
+            <input type="submit" value="Submit">
+            
+        </fieldset>
 </body>
+
 </html>
