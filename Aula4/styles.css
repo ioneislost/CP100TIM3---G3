@@ -1,0 +1,184 @@
+img {
+    height: 200px;
+    width: 200px;
+  
+  }
+   body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      height:97vh;
+      box-sizing:border-box
+   }
+  
+  #pond1{
+      display: flex;
+    justify-content: flex-end;
+    }
+    #pond2{
+      display: flex;
+    justify-content: center;
+    }
+  
+    #pond3{
+      display: flex;
+    justify-content: space-around;
+    }
+  
+    #pond4{
+       display: flex;
+    justify-content: space-between;
+    }
+  
+    #pond5{
+      display: flex;
+    align-items: flex-end;
+    }
+  
+    #pond6{
+  
+      display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+    
+  
+    #pond7{
+      display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    }
+
+    #pond8{
+    display: flex;
+    flex-direction: row-reverse;
+      }
+
+    #pond9 {
+      display: flex;
+    flex-direction: column;
+    }
+  
+    #pond10 .container{
+  
+      display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    }
+  
+  
+   
+   #pond11 .container {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+    }
+  
+    #pond12 .container {
+      height: 1200px;
+      display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    }
+    #pond13 .container{
+      height: 700px ;
+      display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    #pond14 .container {
+      display: flex;
+    
+    .yellow {
+    order: 1
+    }
+  }
+  
+  #pond15 .container {
+      display: flex;
+    
+  }
+  #pond15 .container .red {
+      order:-4;
+  }
+  
+  
+   #pond16 .container {
+      width: 1200px;
+      height: 800px;
+      display: flex;
+      align-items: flex-start;
+    }
+   #pond16 .container .amarelo {
+      align-self: flex-end;
+    }
+    
+    #pond17 .container {
+      width: 1200px;
+      height: 800px;
+      display: flex;
+      align-items: flex-start;
+    }
+    
+    #pond17 .container .yellow {
+    order: 2;
+    align-self: flex-end;
+    }
+  
+    #pond18 .container {
+      width: 1200px;
+      height: 800px;
+      display: flex;
+    flex-wrap: wrap;
+    }
+  
+    #pond19 .container 
+    { height: 1200px;
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      }
+    
+  
+    #pond20 .container{
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+  
+    #pond21 .container{
+      height: 1200px;
+      width: 1300px;
+      display: flex;
+      flex-wrap: wrap;
+    align-content: flex-start;
+    }
+  
+    #pond22 .container {
+      height: 1200px;
+      width: 1300px;
+      display: flex;
+      flex-wrap: wrap;
+    align-content: flex-end;
+    }
+  
+    #pond23 .container {
+      height: 1200px;
+      width:1300px;
+      display: flex;
+      flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+    }
+  
+    #pond24 .container{
+      height: 1200px;
+      width:1300px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: space-between;
+    }
