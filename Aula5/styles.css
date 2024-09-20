@@ -1,0 +1,62 @@
+h1 {
+    font-family: "Red Rose", serif;  
+    color: #091133;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    color: #6F7CB2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    margin-top: 16px;
+    margin-bottom: 52px;
+}
+button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    Width: 190px;
+    Height: 36px;
+    border: 3px solid #000000
+}
+#leftbutton{
+    background: #111B47;
+    color: white;
+}
+img{
+    width: 492px;
+    height: 1031px;
+    top: 100px;
+    left: 783px;
+    padding: 0px 0.16px 0px 0.16px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 98px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sectionleft{
+    width: 520px;
+    height: 330px;
+    top: 160px;
+    left: 165px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 60px;
+}
