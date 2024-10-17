@@ -1,5 +1,8 @@
-function nomecompleto (nome,sobrenome){
-    return nome+" "+sobrenome;
+function inverte(x){
+    let gnirts = "";
+    for(let i=0; i<x.length; i++)
+    gnirts += x[x.length-1-i];
+    return gnirts;
 }
 
-console.log(nomecompleto("Fabio","Colombini"));
+console.log(inverte("Argumento"));
