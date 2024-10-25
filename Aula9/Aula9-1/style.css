@@ -1,0 +1,26 @@
+.cima{
+    background-color: lightgreen ;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 20px 32px;
+    border-radius: 20px;
+}
+
+#primeira{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#ultima{
+    margin-top: 24px;
+}
+
+.baixo{
+    font-size: 16px;
+    padding: 4px 8px;
+}
+button{
+    margin-left: 5px;
+}
