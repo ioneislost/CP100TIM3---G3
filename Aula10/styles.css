@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; }
+h1 { color: #333; }
+#animal-list { margin-top: 20px; }
+.animal-item { margin-bottom: 10px; }
+button { padding: 10px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
