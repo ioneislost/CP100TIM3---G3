@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+    padding: 20px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#Nav{
+    display: flex;
+}
+li{
+    margin-left: 10px ;
+}
